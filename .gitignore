@@ -1,0 +1,5 @@
+                 TO MAKE SURE THE DATA IS NOT UPLOADED UNCOMPILED 
+*.exe
+*.o
+*.obj
+.vscode/
