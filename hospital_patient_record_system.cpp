@@ -70,7 +70,6 @@ void searchPatient() {
     cout << "\nEnter Patient ID to search: ";
     cin >> searchID;
 
-    // skip header line
     getline(file, line);
 
     while (getline(file, line)) {
@@ -96,11 +95,8 @@ int main() {
     int choice;
 
     do {
-        cout << "\n Hospital Patient Record System";
-        cout << "\n1. Add Patient Record";
-        cout << "\n2. Display All Patients";
-        cout << "\n3. Search Patient by ID";
-        cout << "\n4. Exit";
+        cout << "\n Hospital Patient Record System\n";
+        cout << "1. Add Patient Record\n2.View Patients\n3.Search Patient\n4.Exit\n";
         cout << "\nEnter your choice: ";
         cin >> choice;
 
