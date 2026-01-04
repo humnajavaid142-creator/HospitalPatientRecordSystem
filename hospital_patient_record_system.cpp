@@ -96,7 +96,7 @@ int main() {
 
     do {
         cout << "\n Hospital Patient Record System\n";
-        cout << "1. Add Patient Record\n2.View Patients\n3.Search Patient\n4.Exit\n";
+        cout << "1. Add Patient Record\n 2.View Patients\n  3.Search Patient\n  4.Exit\n";
         cout << "\nEnter your choice: ";
         cin >> choice;
 
